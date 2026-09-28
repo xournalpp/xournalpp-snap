@@ -92,7 +92,8 @@ parts:
     after: [alsa, lua-gobject]
     plugin: cmake
     source: https://github.com/xournalpp/xournalpp.git
-    source-tag: v1.3.8
+    source-type: git
+    source-branch: master
     cmake-parameters:
       - "-DCMAKE_INSTALL_PREFIX=/usr"
     parse-info: [usr/share/metainfo/com.github.xournalpp.xournalpp.appdata.xml]
